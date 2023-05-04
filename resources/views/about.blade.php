@@ -3,7 +3,7 @@
 
     <x-slot:title>
         About page
-        </x-slot>
+    </x-slot>
 
 
         <x-page-header>

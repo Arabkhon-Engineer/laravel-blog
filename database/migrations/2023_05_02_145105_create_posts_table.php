@@ -14,12 +14,13 @@ return new class extends Migration
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
             $table->text('title');
-            $table->text('short_context');
-            $table->text('contect');
-            $table->string('photo');
+            $table->text('short_content');
+            $table->text('content');
+            $table->string('photo')->nullable('');
             $table->timestamps();
         });
     }
+
 
     /**
      * Reverse the migrations.
